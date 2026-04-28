@@ -5,11 +5,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="tiktok-developers-site-verification" content="SEU_CODIGO_AQUI">
     <title>OpenClaude - Automação de Conteúdo Digital</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 700px;
+        }
+        .logo {
+            font-size: 72px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+            background: linear-gradient(90deg, #00d4ff, #7b2ff7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .subtitle {
+            font-size: 18px;
+            color: #a0a0b8;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .feature-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 25px 20px;
+            backdrop-filter: blur(10px);
+        }
+        .feature-card .icon {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .feature-card h3 {
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: #00d4ff;
+        }
+        .feature-card p {
+            font-size: 13px;
+            color: #a0a0b8;
+            line-height: 1.5;
+        }
+        .links {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .links a {
+            color: #7b2ff7;
+            text-decoration: none;
+            padding: 10px 24px;
+            border: 1px solid #7b2ff7;
+            border-radius: 25px;
+            transition: all 0.3s;
+            font-size: 14px;
+        }
+        .links a:hover {
+            background: #7b2ff7;
+            color: #ffffff;
+        }
+    </style>
 </head>
 <body>
-<h1>OpenClaude</h1>
-<p>Landing page</p>
-<a href="termos.html">Termos</a>
-<a href="privacidade/">Privacidade</a>
+    <div class="container">
+        <div class="logo">🤖</div>
+        <h1>OpenClaude</h1>
+        <p class="subtitle">
+            Sistema de automação de criação de conteúdo digital que gera vídeos otimizados
+            baseados em dados reais de performance. Elimine achismos e produza conteúdo
+            validado para YouTube, TikTok e Instagram.
+        </p>
+
+        <div class="features">
+            <div class="feature-card">
+                <div class="icon">🔍</div>
+                <h3>Pesquisa de Tendências</h3>
+                <p>Identifica conteúdos virais e oportunidades em nichos evergreen</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">📊</div>
+                <h3>Análise de Dados</h3>
+                <p>Consolida métricas e extrai padrões de vídeos de alta performance</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">💡</div>
+                <h3>Ideias Validadas</h3>
+                <p>Gera pautas com score de validação baseado em dados reais</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🎬</div>
+                <h3>Execução Automática</h3>
+                <p>Roteiros, áudios, thumbnails e vídeos gerados automaticamente</p>
+            </div>
+        </div>
+
+        <div class="links">
+            <a href="termos.html">📄 Termos de Uso</a>
+            <a href="privacidade/">🔒 Política de Privacidade</a>
+            <a href="https://github.com/historiadaexistencia/openclaude">💻 GitHub</a>
+        </div>
+    </div>
 </body>
 </html>
